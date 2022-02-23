@@ -1,0 +1,133 @@
+/* CSS Document */
+
+/*.toggle,*/
+/*[id^=drop] {*/
+/*  display: none;*/
+/*}*/
+
+/* Giving a background-color to the nav container. */
+nav {
+  margin:0;
+  padding: 0;
+  background-color: #254441;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  width: 100%;
+}
+/*#logo {*/
+/*  display: block;*/
+/*  padding: 0 30px;*/
+/*  float: left;*/
+/*  font-size:20px;*/
+/*  line-height: 60px;*/
+/*}*/
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+/*nav:after {*/
+/*  content:"";*/
+/*  display:table;*/
+/*  clear:both;*/
+/*}*/
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+  float: left;
+  padding:0;
+  margin:0;
+  list-style: none;
+  position: relative;
+}
+
+/* Positioning the navigation items inline */
+nav ul li {
+  margin: 0px;
+  display:inline-block;
+  float: left;
+  /*background-color: #d3d3d3;*/
+}
+
+/* Styling the links */
+/*nav a {*/
+/*  display:block;*/
+/*  padding:14px 20px;*/
+/*  color:#FFF;*/
+/*  font-size:17px;*/
+/*  text-decoration:none;*/
+/*}*/
+
+.button {
+  display: block;
+  padding:1vh 2.5vh;
+  font-size:17px;
+  cursor: pointer;
+  font-family: pamainbold;
+  letter-spacing: 0.1vh;
+  color: #fff;
+  background-color: #18c5ff;
+  width: 18vh;
+  border: 0.1vh solid #d3d3d3;
+}
+
+.sport-type {
+  display: block;
+  padding:1.22vh 2.5vh;
+  /*padding: 14px 20px;*/
+  color:rgba(0,0,0,0.5);
+  font-size:17px;
+  cursor: pointer;
+  font-family: pamainbold;
+  letter-spacing: 0.1vh;
+  text-transform: uppercase;
+}
+
+/*.sport-type:hover {*/
+/*  color: #ffffff;*/
+/*}*/
+
+ul li:hover > .sport-type {
+  color: #ffffff;
+}
+
+nav ul li ul li:hover {
+  /*background-color: #18c5ff;*/
+}
+
+/* Background color change on Hover */
+/*nav a:hover {*/
+/*  background-color: #000000;*/
+/*}*/
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+  display: none;
+  position: absolute;
+  /* has to be the same number as the "line-height" of "nav a" */
+  /*top: 60px;*/
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:not(.nohover):hover > ul {
+  display:inherit;
+}
+
+/* Fisrt Tier Dropdown */
+ul ul li {
+  width:100%;
+  float:right;
+  display:list-item;
+  position: relative;
+
+  /*border-bottom-style: solid;*/
+  /*border-bottom-width: 2px;*/
+  /*border-bottom-color: blue;*/
+}
+

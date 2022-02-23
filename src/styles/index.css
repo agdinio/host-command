@@ -1,0 +1,257 @@
+@font-face {
+  font-family: 'pawrittenbold';
+  src: url('../assets/fonts/pawritten-bold.eot');
+  src: url('../assets/fonts/pawritten-bold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/pawritten-bold.woff2') format('woff2'),
+  url('../assets/fonts/pawritten-bold.woff') format('woff'),
+  url('../assets/fonts/pawritten-bold.ttf') format('truetype'),
+  url('../assets/fonts/pawritten-bold.svg#pawrittenbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'pawrittenregular';
+  src: url('../assets/fonts/pawritten.eot');
+  src: url('../assets/fonts/pawritten.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/pawritten.woff2') format('woff2'),
+  url('../assets/fonts/pawritten.woff') format('woff'),
+  url('../assets/fonts/pawritten.ttf') format('truetype'),
+  url('../assets/fonts/pawritten.svg#pawrittenregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'pamainextrabold';
+  src: url('../assets/fonts/pamain-extrabold.eot');
+  src: url('../assets/fonts/pamain-extrabold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/pamain-extrabold.woff2') format('woff2'),
+  url('../assets/fonts/pamain-extrabold.woff') format('woff'),
+  url('../assets/fonts/pamain-extrabold.ttf') format('truetype'),
+  url('../assets/fonts/pamain-extrabold.svg#pamainextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pamainbold';
+  src: url('../assets/fonts/pamain-bold.eot');
+  src: url('../assets/fonts/pamain-bold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/pamain-bold.woff2') format('woff2'),
+  url('../assets/fonts/pamain-bold.woff') format('woff'),
+  url('../assets/fonts/pamain-bold.ttf') format('truetype'),
+  url('../assets/fonts/pamain-bold.svg#pamainbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pamainlight';
+  src: url('../assets/fonts/pamain-light.eot');
+  src: url('../assets/fonts/pamain-light.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/pamain-light.woff2') format('woff2'),
+  url('../assets/fonts/pamain-light.woff') format('woff'),
+  url('../assets/fonts/pamain-light.ttf') format('truetype'),
+  url('../assets/fonts/pamain-light.svg#pamainlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'pamainregular';
+  src: url('../assets/fonts/pamain.eot');
+  src: url('../assets/fonts/pamain.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/pamain.woff2') format('woff2'),
+  url('../assets/fonts/pamain.woff') format('woff'),
+  url('../assets/fonts/pamain.ttf') format('truetype'),
+  url('../assets/fonts/pamain.svg#pamainregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: pamainregular, sans-serif;
+
+  /*background-image: url("../assets/images/bg-default.jpg");*/
+  background-color: #222222 !important;
+  height: 100%;
+  width: 100%;
+
+  /*new*/
+  overflow-x: hidden;
+}
+
+video::-webkit-media-controls-fullscreen-button
+{
+  display: none !important;
+}
+
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='times-new-roman']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='times-new-roman']::before
+{
+  content: 'T N Roman';
+  font-family: 'Times New Roman';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='arial']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='arial']::before
+{
+  content: 'Arial';
+  font-family: Arial;
+}
+
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='pamainlight']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='pamainlight']::before
+{
+  content: 'pamainlight';
+  font-family: pamainlight;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='pamainregular']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='pamainregular']::before
+{
+  content: 'pamainregular';
+  font-family: pamainregular;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='pamainbold']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='pamainbold']::before
+{
+  content: 'pamainbold';
+  font-family: pamainbold;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='pamainextrabold']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='pamainextrabold']::before
+{
+  content: 'pamainextrabold';
+  font-family: pamainextrabold;
+}
+
+
+.ql-font-arial {
+  font-family: Arial;
+}
+
+.ql-font-times-new-roman {
+  font-family: 'Times New Roman';
+}
+
+.ql-font-pamainlight {
+  font-family: pamainlight;
+}
+
+.ql-font-pamainregular {
+  font-family: pamainregular;
+}
+
+.ql-font-pamainbold {
+  font-family: pamainbold;
+}
+
+.ql-font-pamainextrabold {
+  font-family: pamainextrabold;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1vh"]::before {
+  content: '1';
+  font-size: 1vh !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="2vh"]::before {
+  content: '2';
+  font-size: 2vh !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="3vh"]::before {
+  content: '3';
+  font-size: 3vh !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="4vh"]::before {
+  content: '4';
+  font-size: 4vh !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="5vh"]::before {
+  content: '5';
+  font-size: 5vh !important;
+}
+
+#announce-editor .ql-editor {
+  overflow-y: hidden;
+  border: none;
+  max-height: 5vh;
+  font-family: pamainlight;
+  font-size: 1.8vh;
+  padding-top: 1.3vh;
+  text-transform: uppercase;
+}
+
+.ql-font {
+  width: 6vh;
+}
+
+.ql-font-custom-pamainlight {
+  font-family: pamainlight;
+  font-size: 2vh;
+  text-decoration: underline;
+}
+.ql-font-custom-pamainregular {
+  font-family: pamainregular;
+  font-size: 2vh;
+  text-decoration: underline;
+}
+.ql-font-custom-pamainbold {
+  font-family: pamainbold;
+  font-size: 2vh;
+  text-decoration: underline;
+}
+.ql-font-custom-pamainextrabold {
+  font-family: pamainextrabold;
+  font-size: 2vh;
+  text-decoration: underline;
+}
+
+div > div.react-datepicker-wrapper,
+div > div.react-datepicker__input-container,
+div > div.react-datepicker__input-container input {
+  width: 16.5vw;
+  height: 4vh;
+  font-family: pamainregular;
+  font-size: 2vh;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  text-align: center;
+}
+.react-datepicker {
+  font-family: Arial;
+  font-size: 1vh;
+}
+.react-datepicker__header {
+  padding-top: 2vh !important;
+}
+.react-datepicker__current-month {
+  font-size: 1.2vh !important;
+}
+.react-datepicker__navigation {
+  top: 1.6vh !important;
+}
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 1vh !important; /*change margin to adjust the whole size of the container*/
+}
